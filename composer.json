@@ -1,0 +1,22 @@
+{
+    "name": "idalgo/dbsync",
+    "description": "Database Bo/Fo Synchronisation",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Fernando CONDE",
+            "email": "fconde@idalgo.fr"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+           "":"Src/"
+        }
+     }
+}
