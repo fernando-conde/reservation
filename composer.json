@@ -1,19 +1,17 @@
 {
-    "name": "idalgo/dbsync",
-    "description": "Database Bo/Fo Synchronisation",
+    "name": "fernando-conde/reservation",
+    "description": "Generali - Projet Bruno : réservations prod",
     "version": "1.0.0",
     "authors": [
         {
             "name": "Fernando CONDE",
             "email": "fconde@idalgo.fr"
+        },
+        {
+            "name": "Brunbo PINO",
+            "email": "bruno.pino@generali.com"
         }
     ],
-    "require": {
-        "php": ">=7.2.0"
-    },
-    "require-dev": {
-        "symfony/var-dumper": "^4.2"
-    },
     "autoload": {
         "psr-4": {
            "":"Src/"
